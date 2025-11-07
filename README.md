@@ -85,4 +85,8 @@ dfir-analyzer Analysis Mobile View
 
 - [LogSentinel](https://logsentinel.netlify.app/) on Netlify
 
+- [LogSentinel](https://github.com/shadywhale/LogSentinel/) on Github
+
 - [LogRecon](https://logrecon.netlify.app/) on Netlify
+
+- [LogRecon](https://github.com/shadywhale/LogRecon/) on Github
