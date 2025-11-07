@@ -9,27 +9,27 @@ An AI-powered triage assistant for SOC analysts, incident responders and DFIR en
 
 dfir-analyzer Static Laptop View
 
-![dfir-analyzer Static Laptop View](/dfir-analyzer/media/dfir-static-laptop-view.png)
+![dfir-analyzer Static Laptop View](/media/dfir-static-laptop-view.png)
 
 dfir-analyzer Search Laptop View
 
-![dfir-analyzer Search Laptop View](/dfir-analyzer/media/dfir-search-laptop-view.png)
+![dfir-analyzer Search Laptop View](/media/dfir-search-laptop-view.png)
 
 dfir-analyzer Spinner Laptop View
 
-![dfir-analyzer Spinner Laptop View](/dfir-analyzer/media/dfir-spinner-laptop-view.png)
+![dfir-analyzer Spinner Laptop View](/media/dfir-spinner-laptop-view.png)
 
 dfir-analyzer Analysis Laptop View
 
-![dfir-analyzer Analysis Laptop View](/dfir-analyzer/media/dfir-analysis-laptop-view.png)
+![dfir-analyzer Analysis Laptop View](/media/dfir-analysis-laptop-view.png)
 
 dfir-analyzer Search Mobile View
 
-![dfir-analyzer Search Mobile View](/dfir-analyzer/media/dfir-search-mobile-view.png)
+![dfir-analyzer Search Mobile View](/media/dfir-search-mobile-view.png)
 
 dfir-analyzer Analysis Mobile View
 
-![dfir-analyzer Analysis Mobile View](/dfir-analyzer/media/dfir-analysis-mobile-view.png)
+![dfir-analyzer Analysis Mobile View](/media/dfir-analysis-mobile-view.png)
 
 
 ## 🧰 Tech Stack
