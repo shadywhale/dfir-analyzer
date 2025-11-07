@@ -1,0 +1,12 @@
+{
+  "rewrites": [
+    {
+      "source": "/analyze",
+      "destination": "/api/index.js"
+    },
+    {
+      "source": "/load-data/:filename",
+      "destination": "/api/index.js"
+    }
+  ]
+}

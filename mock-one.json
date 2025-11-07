@@ -1,0 +1,184 @@
+[
+  {
+    "PID": 4,
+    "PPID": 0,
+    "Name": "System",
+    "Path": "C:\\Windows\\system32\\ntoskrnl.exe",
+    "User": "SYSTEM",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 1256,
+    "PPID": 1208,
+    "Name": "explorer.exe",
+    "Path": "C:\\Windows\\explorer.exe",
+    "User": "JaneD",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 1888,
+    "PPID": 1256,
+    "Name": "chrome.exe",
+    "Path": "C:\\Program Files\\Google\\Chrome\\Application\\chrome.exe",
+    "User": "JaneD",
+    "NetworkConnections": [
+      "192.168.1.10:52123 -> 142.250.72.78:443 (ESTABLISHED)"
+    ]
+  },
+  {
+    "PID": 3420,
+    "PPID": 1256,
+    "Name": "powershell.exe",
+    "Path": "C:\\Users\\Admin\\AppData\\Local\\Temp\\update_v2.ps1",
+    "User": "Admin",
+    "NetworkConnections": [
+      "172.16.10.20:49876 -> 203.0.113.45:8443 (ESTABLISHED - High Port C2)"
+    ]
+  },
+  {
+    "PID": 4567,
+    "PPID": 1256,
+    "Name": "notepad.exe",
+    "Path": "C:\\Windows\\System32\\notepad.exe",
+    "User": "hi5678",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 6112,
+    "PPID": 3420,
+    "Name": "cmd.exe",
+    "Path": "C:\\Windows\\System32\\cmd.exe",
+    "User": "Admin",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 5900,
+    "PPID": 4,
+    "Name": "services.exe",
+    "Path": "C:\\Windows\\system32\\services.exe",
+    "User": "SYSTEM",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 1992,
+    "PPID": 5900,
+    "Name": "svchost.exe",
+    "Path": "C:\\Windows\\System32\\svchost.exe (RPCSS)",
+    "User": "LOCAL SERVICE",
+    "NetworkConnections": [
+      "10.0.0.10:135 (LISTENING)"
+    ]
+  },
+  {
+    "PID": 9011,
+    "PPID": 1256,
+    "Name": "WINWORD.EXE",
+    "Path": "C:\\Program Files\\Microsoft Office\\Office16\\WINWORD.EXE",
+    "User": "JaneD",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 2044,
+    "PPID": 1888,
+    "Name": "rundll32.exe",
+    "Path": "C:\\Users\\Public\\Downloads\\update_agent.dll,Start",
+    "User": "hi5678",
+    "NetworkConnections": [
+      "192.168.1.10:54321 -> 104.24.11.23:80 (ESTABLISHED - HTTP)"
+    ]
+  },
+  {
+    "PID": 7740,
+    "PPID": 5900,
+    "Name": "spoolsv.exe",
+    "Path": "C:\\Windows\\System32\\spoolsv.exe",
+    "User": "SYSTEM",
+    "NetworkConnections": [
+      "10.0.0.10:631 (LISTENING)"
+    ]
+  },
+  {
+    "PID": 4099,
+    "PPID": 6112,
+    "Name": "nc.exe",
+    "Path": "C:\\Users\\Public\\Tools\\nc.exe",
+    "User": "Admin",
+    "NetworkConnections": [
+      "172.16.10.20:53000 -> 198.51.100.12:4444 (ESTABLISHED - Reverse Shell)"
+    ]
+  },
+  {
+    "PID": 3500,
+    "PPID": 5900,
+    "Name": "MsMpEng.exe",
+    "Path": "C:\\ProgramData\\Microsoft\\Windows Defender\\MsMpEng.exe",
+    "User": "SYSTEM",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 1004,
+    "PPID": 1256,
+    "Name": "firefox.exe",
+    "Path": "C:\\Program Files\\Mozilla Firefox\\firefox.exe",
+    "User": "GuestUser",
+    "NetworkConnections": [
+      "192.168.1.10:52500 -> 216.58.210.163:443 (ESTABLISHED)"
+    ]
+  },
+  {
+    "PID": 9988,
+    "PPID": 1256,
+    "Name": "7z.exe",
+    "Path": "C:\\Program Files\\7-Zip\\7z.exe",
+    "User": "hi5678",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 2300,
+    "PPID": 1256,
+    "Name": "AcroRd32.exe",
+    "Path": "C:\\Program Files (x86)\\Adobe\\Acrobat Reader DC\\Reader\\AcroRd32.exe",
+    "User": "JaneD",
+    "NetworkConnections": []
+  },
+  {
+    "PID": 7880,
+    "PPID": 1888,
+    "Name": "wscript.exe",
+    "Path": "C:\\Users\\TempUser\\Appdata\\Local\\Temp\\script.vbs",
+    "User": "TempUser",
+    "NetworkConnections": [
+      "192.168.1.10:56789 -> 1.1.1.1:53 (UDP - DNS Query)"
+    ]
+  },
+  {
+    "PID": 3344,
+    "PPID": 5900,
+    "Name": "winlogon.exe",
+    "Path": "C:\\Windows\\System32\\winlogon.exe",
+    "User": "SYSTEM",
+    "NetworkConnections": [
+      "10.0.0.10:3389 (LISTENING - RDP)"
+    ]
+  },
+  {
+    "PID": 2000,
+    "PPID": 1256,
+    "Name": "teams.exe",
+    "Path": "C:\\Program Files\\WindowsApps\\Microsoft.Teams_...\teams.exe",
+    "User": "GuestUser",
+    "NetworkConnections": [
+      "192.168.1.10:53005 -> 52.113.194.20:443 (ESTABLISHED)"
+    ]
+  },
+  {
+    "PID": 4422,
+    "PPID": 84,
+    "Name": "taskhostw.exe",
+    "Path": "C:\\Windows\\System32\\TaskHostW.exe",
+    "User": "Admin",
+    "NetworkConnections": [
+      "172.16.10.20:55000 -> 104.24.11.23:80 (ESTABLISHED - HTTP)"
+    ]
+  }
+]

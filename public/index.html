@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>DFIR Process Artifact Analyzer</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body class="p-4 sm:p-8">
+  <div class="max-w-4xl mx-auto">
+    <header class="text-center mb-10">
+      <h1 class="text-4xl font-extrabold text-red-400 mb-2">DFIR Endpoint Artifact Analyzer</h1>
+      <p class="text-gray-400 text-xl">Upload or paste process/network data for AI-powered triage</p>
+    </header>
+
+    <div class="container-card p-6 rounded-xl shadow-2xl mb-6">
+      <h2 class="text-2xl font-semibold text-white mb-3 flex items-center">
+        <span class="mr-2 text-blue-400">💾</span> Endpoint Process & Network Data
+      </h2>
+      <textarea id="processDataInput" rows="12" class="data-input w-full p-3 rounded-lg border resize-none"></textarea>
+      <p class="text-sm text-gray-500 mt-1">Format: PID,PPID,Name,Path,User,NetworkConnections</p>
+      <input type="file" id="logFileUpload" accept=".csv,.txt,.json" class="mt-4 block text-sm text-gray-300" />
+      <button id="runAnalysisBtn" class="action-button w-full mt-4 px-6 py-3 bg-red-600 hover:bg-red-700 text-white font-bold rounded-lg">
+        Run DFIR Triage
+      </button>
+      <div id="loadingSpinner" class="text-center text-blue-400 mt-4 hidden">🔍 Analyzing...</div>
+    </div>
+
+    <div class="container-card p-6 rounded-xl shadow-2xl">
+      <h2 class="text-2xl font-semibold text-white mb-4 border-b border-gray-700 pb-2">Analysis Findings (Triage Report)</h2>
+      <div id="analysisResults" class="min-h-[150px]"></div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
